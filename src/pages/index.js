@@ -87,25 +87,25 @@ export default function Home() {
           <button className={styles.button} onClick={() => entradaDados(7)}>7</button>
           <button className={styles.button} onClick={() => entradaDados(8)}>8</button>
           <button className={styles.button} onClick={() => entradaDados(9)}>9</button>
-          <button className={styles.button} onClick={() => handleOperador('+')}>+</button>
+          <button className={styles.operator} onClick={() => handleOperador('+')}>+</button>
         </div>
         <div>
           <button className={styles.button} onClick={() => entradaDados(4)}>4</button>
           <button className={styles.button} onClick={() => entradaDados(5)}>5</button>
           <button className={styles.button} onClick={() => entradaDados(6)}>6</button>
-          <button className={styles.button} onClick={() => handleOperador('-')}>-</button>
+          <button className={styles.operator} onClick={() => handleOperador('-')}>-</button>
         </div>
         <div>
           <button className={styles.button} onClick={() => entradaDados(1)}>1</button>
           <button className={styles.button} onClick={() => entradaDados(2)}>2</button>
           <button className={styles.button} onClick={() => entradaDados(3)}>3</button>
-          <button className={styles.button} onClick={() => handleOperador('*')}>*</button>
+          <button className={styles.operator} onClick={() => handleOperador('*')}>*</button>
         </div>
         <div>
           <button className={styles.button} onClick={() => entradaDados(0)}>0</button>
           <button className={styles.button} onClick={resetNumber}>C</button>
           <button className={styles.button} onClick={handleEquals}>=</button>
-          <button className={styles.button} onClick={() => handleOperador('/')}>/</button>
+          <button className={styles.operator} onClick={() => handleOperador('/')}>/</button>
         </div>
       </div>
     </div>

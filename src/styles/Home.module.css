@@ -5,32 +5,38 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(to right, #797d7cd8, #28282C);
+    background-color: #000;
 }
 .box {
-    background-color: #EAE0D7;   
-    border: 5px solid #28282C;
+    border: 2px solid #28282C;
     border-radius: 5px;
+    padding: 20px 10px;
 }
-.button {
-    font-size: 22px;
-    font-weight: 100;
+.button, .operator {
+    font-size: 26px;
+    font-weight: 300;
     margin: 5px;
     width: 60px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 30px;
+    border: none;
     background-color: #28282C;
     color: #EAE0D7;
 }
 
+.operator {
+    background-color: #fc9e11c1;
+}
+
 .display {
-    background-color: #28282C;
-    color: #EAE0D7;
+    background-color: #a5a5a5;
+    color: #000;
     margin: 5px;
     width: 100%;
     max-width: 270px;
-    height: 100px;
+    height: 80px;
     border-radius: 10px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
